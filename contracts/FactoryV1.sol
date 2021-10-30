@@ -15,6 +15,11 @@ contract FactoryV1 is  ProxyLayout {
         uint32 power;
         uint32 height;
     }
+    /// @notice added for testing purpose
+    constructor(address titanTokenadd)
+    {
+        super.setTokenAddress(titanTokenadd);
+    }
     
     mapping(uint256 => Titans) public idToTitan;
 
