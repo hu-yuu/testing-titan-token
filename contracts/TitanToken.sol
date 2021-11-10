@@ -14,7 +14,8 @@ contract TitanToken is ERC721, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private tokenId;
     
-    address private factory;
+    //made public for testing
+    address public factory;
     
     constructor()
     ERC721("Titan Token", "TITA")

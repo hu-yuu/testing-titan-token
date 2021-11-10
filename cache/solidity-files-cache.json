@@ -39,8 +39,8 @@
       ]
     },
     "D:\\testing-titan-token\\contracts\\TitanToken.sol": {
-      "lastModificationDate": 1635340455606,
-      "contentHash": "70a3e7c2a3121cade1faa5b9da127a91",
+      "lastModificationDate": 1636458648644,
+      "contentHash": "e5978488cef8a094af2cf167bed3c633",
       "sourceName": "contracts/TitanToken.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -539,6 +539,43 @@
       ],
       "artifacts": [
         "FactoryV1"
+      ]
+    },
+    "D:\\testing-titan-token\\contracts\\FactoryV2.sol": {
+      "lastModificationDate": 1636523131735,
+      "contentHash": "4c92a6a1d8dc9df0efd2054e53cd07b3",
+      "sourceName": "contracts/FactoryV2.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ProxyLayout.sol",
+        "./TitanToken.sol"
+      ],
+      "versionPragmas": [
+        "0.8.4"
+      ],
+      "artifacts": [
+        "FactoryV2"
       ]
     }
   }
